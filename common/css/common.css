@@ -1,0 +1,389 @@
+body{
+    min-width: 1000px;
+    color: #555;
+    font-size: 16px;
+    font-family: Osaka, メイリオ, Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.clearfix{
+    overflow: hidden;
+}
+
+.header01{
+    height: 30px;
+    background: #ffa5b4;
+}
+
+.header01inner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header01inner a{
+    float: right;
+    color: #fff;
+    line-height: 2.4;
+    text-decoration: none;
+}
+
+.header02{
+    background: url(../images/header_area_bg.gif) right no-repeat;
+}
+
+.header02inner{
+    max-width: 1000px;
+    height: 130px;
+    margin: 0 auto;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.header02inner .header02Left{
+    float: left;
+    padding: 13px 0 0;
+}
+
+.header02inner .header02Text{
+    margin: 8px 0 0;
+    font-size: 100%;
+}
+
+.header02Right .iconMenu{
+    float: right;
+    display: none;
+}
+
+.navArea{
+    max-width: 100%;
+    height: 48px;
+    background: url(../images/gnav_area_bg.png) repeat;
+}
+
+.navAreainner{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.navAreainner ul li{
+    float: left;
+    position: relative;
+    width: 33%;
+    height: 48px;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #cecece;
+    font-weight: bold;
+    text-align: center;
+    list-style-type: none;
+}
+
+.navAreainner ul li a{
+    display: block;
+    color: #555;
+    text-decoration: none;
+    line-height: 3;
+}
+
+.navAreainner ul li.active a{
+    background: url(../images/nav_green_bg.png) repeat-x;
+    color: #fff;
+}
+
+.navAreainner ul li a:hover{
+    background: url(../images/nav_green_bg.png) repeat-x;
+    color: #fff;
+}
+
+.mainArea{
+    max-width: 100%;
+    background: url(../images/bg_main_top.jpg) top repeat-x, url(../images/bg_main_bottom.jpg) bottom no-repeat;
+    box-shadow: 0 5px 10px #888 inset;
+}
+
+.mainAreaWrap{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom:  192px;
+    background: url(../images/footer_tree.png) bottom right no-repeat;
+}
+
+.section01{
+    padding: 13px 28px 39px;
+    background: #fff;
+    border-radius: 18px;
+}
+
+.section01 h2{
+    margin: 18px 0 12px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.navArea02{
+    margin: 21px 0 40px;
+    margin-bottom: 30px;
+}
+
+.navArea02 ul{
+    display: flex;
+    width: 100%;
+    gap: 14px;
+}
+
+.navArea02 ul li{
+    position: relative;
+    width: 25%;
+    min-height: 78px;
+    border-radius: 5px;
+    background: url(../images/pink_bg.png) repeat-x;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navArea02 .sct01List01,
+.navArea02 .sct01List02,
+.navArea02 .sct01List04{
+    display: block;
+    margin: 30px 10px 0 27px;
+    background: url('../images/icon_arrowDown.png') right no-repeat;
+}
+
+.navArea02 .sct01List03{
+    display: block;
+    margin: 20px 10px 0 0px;
+    background: url('../images/icon_arrowDown.png') right no-repeat;
+    text-align: center;
+}
+
+
+.mainNavLink{
+    margin: 20px 0 19px 5px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.mainNavLink a{
+    float: left;
+    margin-right: 16px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.mainNavLink span{
+    margin-right: 9px;
+}
+
+.navArea03 ul{
+    display: flex;
+    margin-bottom: 39px;
+    gap: 14px;
+}
+
+.navArea03 ul li{
+    width: 20%;
+    padding: 18px 0 20px;
+    border-radius: 5px;
+    background: url(../images/pink_bg.png) repeat-x;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navArea03 ul li span{
+    background: url('../images/icon_arrowDown.png') right no-repeat;
+}
+
+.navArea03 .sct01List01,
+.navArea03 .sct01List02,
+.navArea03 .sct01List04{
+    padding: 0 58px 0 45px;
+}
+
+.navArea03 .sct01List03{
+    padding: 0 75px 0 59px;
+}
+
+.navArea03 .sct01List05{
+    padding: 0 39px 0 28px;
+}
+
+.section02 img{
+    float: right;
+}
+
+.footerArea01{
+    float: right;
+}
+
+.footerArea01 .ftrTopScroll{
+    position: relative;
+    margin: -24px 34px 0 0;
+    cursor: pointer;
+}
+
+.footerArea02{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 36px 0 0 94px;
+    gap: 500px;
+}
+
+.footerArea02 .footer01Left{
+    margin-bottom: 18px;
+}
+
+.footerArea02 .footer01Left ul{
+    margin: 18px 0 15px 3px;
+}
+
+.footerArea02 .footer01Left ul li a{
+    float: left;
+    margin-right: 35px;
+    color: #555;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+body{
+    min-width: 100%;
+}
+
+.header02Left{
+    margin: 0 0 0 5px;
+}
+
+.header02inner .header02Text{
+    font-size: 70%;
+}
+
+.header02Right .iconMenu{
+    display: block;
+    position: relative;
+    float: right;
+    margin: 50px 5px 0 0;
+    padding: 5px 6px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 7px;
+}
+
+.navArea{
+    height: auto;
+    margin-bottom: 0;
+}
+
+.navAreainner{
+    display: none;
+    width: 100%;
+}
+
+.navAreainner ul li{
+    display: block;
+    float: none;
+    width: 100%;
+}
+
+.navAreainner.active {
+    display: block;
+}
+
+.mainAreaWrap{
+    padding: 0 5px 20px;
+    background: none;
+}
+
+.section01{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.navArea02 ul{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.navArea02 ul li{
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+}
+
+.navArea02 .sct01List03{
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.navArea02 .sct01List01,
+.navArea02 .sct01List02,
+.navArea02 .sct01List04{
+    display: block;
+    margin: 15px 5px 15px 13px;
+}
+
+.navArea03 ul{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.navArea03 ul li{
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+.navArea03 ul li .nav03List{
+    padding: 0 20px 0 0;
+    background: url('../images/icon_arrowDown.png') right no-repeat;
+}
+
+.footerArea .ftrTopScroll{
+    margin: -60px 50px 0 0;
+}
+
+.footerArea02{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 0;
+    text-align: center;
+}
+
+.footerArea02 .footer01Left ul{
+    margin-top: 40px;
+}
+
+.footerArea02 .footer01Left ul li{
+    padding-bottom: 20px;
+}
+
+.footerArea02 .footer01Left ul li a{
+    float: none;
+}
+}
+
+@media screen and (max-width:320px) {
+.header02{
+    background: none;
+}
+
+.header02Left{
+    margin: 0 0 0 5px;
+}
+.header02inner .header02Text{
+    font-size: 60%;
+}
+
+.header02Right .iconMenu{
+    display: block;
+    position: relative;
+    float: right;
+    margin: 30px 5px 0 0;
+    padding: 5px 6px;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 7px;
+}
+}

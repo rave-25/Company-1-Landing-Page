@@ -1,0 +1,608 @@
+.carouselArea{
+    max-width: 1000px;
+    margin: 26px 0 18px;
+}
+
+.carouselInner {
+	position: relative;
+	margin: 0 auto;
+}
+
+.carouselItem img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px 2px #888;
+}
+
+.carouselNavArea {
+	position: absolute;
+	top: 86px;
+	left: 0;
+	width: 1000px;
+}
+
+.carouselLeft {
+	position: absolute;
+	top: 0;
+	left: -59px;
+	width: 40px;
+	height: 80px;
+	background: url(../images/arrow_left.png) 0 0 no-repeat;
+	cursor: pointer;
+    opacity: 25%;
+}
+
+.carouselRight {
+	position: absolute;
+	top: 0;
+	right: -59px;
+	width: 40px;
+	height: 80px;
+	background: url(../images/arrow_right.png) right 0 no-repeat;
+	cursor: pointer;
+    opacity: 25%;
+}
+
+.carouselTxt01{
+    position: relative;
+    margin: -90px 0 71px;
+    color: #fff;
+    font-size: 37px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section01 .sct01txt{
+    margin-top: 7px;
+    font-size: 27.5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section01Inner{
+    padding: 20px 0 0;
+}
+
+.blockSection01,
+.blockSection02,
+.blockSection03,
+.blockSection04{
+    margin-bottom: 35px; 
+}
+
+.sct01Para01,
+.sct01Para02{
+    padding: 12px 0 0 3px;
+    background: url('../images/comp_header02_border01.gif') top no-repeat;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+.section01Inner img{
+    width: 100%;
+}
+
+.sct01Health,
+.sct01Noodle{
+    display: flex;
+    gap: 29px;
+}
+
+.sct01Health01,
+.sct01Noodle01{
+    width: 57%;  
+}
+
+.sct01Food,
+.sct01Darumaya{
+    display: flex;
+    gap: 30px;
+}
+
+.sct01Food02,
+.sct01Darumaya02{
+    width: 59.9%;
+}
+
+.sct01Shopping01{
+    width: 57.2%;
+}
+
+.blockSection03{
+    margin-bottom: 25px;
+}
+
+.blockSection03 .sct01Noodle01 h3{
+    margin: 18px 0 12px 0;
+}
+
+.blockSection04{
+    margin-bottom: 15px;
+}
+
+.blockSection05{
+    display: flex;
+    gap: 17px;
+    margin-bottom: 35px;
+}
+
+.blockSection06 .sct01Shopping{
+    display: flex;
+    gap: 27px;
+}
+
+.sct01Shopping01 a{
+    float: right;
+    color: #ff5390;
+    font-weight: bold;
+}
+
+/**Company Page**/
+.sct01Message,
+.sct02profile,
+.sct03History,
+.sct04FoodSector,
+.sct05Social,
+.sct01Inquiry{
+    margin: 0 0 12px -3px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.companySection01{
+    padding: 34px 25px 20px 28px;
+    background: #fff;
+    border-radius: 18px;
+}
+
+.blkSection01{
+    margin-bottom: 47px;
+}
+
+.blkSection01 .sct01Message{
+    padding-bottom: 15px;
+    background: url('../common/images/comp_header02_border01.gif') bottom no-repeat;
+}
+
+.blkSct01Message{
+    display: flex;
+    padding: 18px 32px 30px 0;
+    border-bottom: 1px dashed #fcd1da;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    gap: 28px;
+}
+
+.blkSection02{
+    margin-bottom: 47px;
+}
+
+.blkSection02 .sct02profile,
+.blkSection03 .sct03History,
+.blkSection04 .sct04FoodSector,
+.blkSection05 .sct05Social{
+    padding-bottom: 17px;
+    background: url('../common/images/comp_header02_border01.gif') bottom no-repeat;
+}
+
+.blkSct02Profile{
+    display: flex;
+    min-width: 1000px;
+    padding: 17px 0 26px;
+    border-bottom: 1px dashed #fcd1da;
+    gap: 9em;
+}
+
+.blkSct02LeftProfile{
+    width: 50%;
+    padding: 4px 0 0;
+    font-size: 100%;
+}
+
+.blkSct02LeftProfile ul li{
+    padding-bottom: 17px;
+}
+
+.blkSct02LeftProfile .sct02list{
+    display: block;
+    float: left;
+    width: 117px;
+    height: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.blkSct02RightProfile{
+    font-weight: bold;
+    text-align: center;
+}
+
+.blkSct02Profile img{
+    margin: 0 18px 8px;
+}
+
+.blkSection03{
+    margin-bottom: 66px;
+}
+
+.sct03History{
+    margin: 0;
+}
+
+.blkSct03History{
+    padding: 40px 0 50px;
+    background: #edfaf4;
+}
+
+.blkSct03Inner ul{
+    display: flex;
+    width: 548px;
+    margin: 0 auto;
+    padding: 0 13px 0 25px;
+    background: url('../images/img_company02.png') left repeat-y;
+    flex-direction: column;
+}
+
+.blkSct03Inner ul li{
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 11px 0 15px 11px;
+    background: #fff;
+    border: 1px solid #e1ede8;
+}
+
+.blkSct03Inner ul li:before{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    margin: 12px 0 0 -42px;
+    background: url('../images/img_company_arrow.png') no-repeat;
+    content: '';
+}
+
+.blkSct03Inner ul li:nth-child(5):before,
+.blkSct03Inner ul li:nth-child(6):before{
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    margin: 24px 0 0 -42px;
+    background: url('../images/img_company_arrow.png') no-repeat;
+    content: '';
+}
+
+.blkSct03Inner ul li:nth-child(5),
+.blkSct03Inner ul li:nth-child(6){
+    margin-bottom: 8px;
+    padding: 11px 0 13px 11px;
+}
+
+.blkSct03Inner ul li:nth-child(8){
+    margin-bottom: 0;
+}
+
+.blkSct03Inner .sct03Year{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.blkSct03Inner .sct03Text01{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.blkSection04{
+    margin-bottom: 47px;
+}
+
+.blkSct04FoodSector{
+    display: flex;
+    padding: 0 0 46px;
+    border-bottom: 1px dashed #fcd1da;
+    justify-content: center;
+}
+
+.blkSct04Inner{
+    width: 569px;
+}
+
+.blkSct04FoodSector h3{
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.blkSct04Inner img{
+    width: 66.4%;
+}
+
+.blkSct04Inner .sct04InnerText{
+    margin: 17px 0 0 22px;
+    font-weight: bold;
+}
+
+.blkSct05Social{
+    display: flex;
+    padding: 28px 3px 0 0;
+    justify-content: right;
+}
+
+.blkSct05Social img{
+    width: 100%;
+}
+
+.blkSection05{
+    margin-bottom: 19px;
+}
+
+.blkSct05Inner{
+    padding: 0 0 0 190px;
+}
+
+.sct05Text{
+    width: 425px;
+    margin-right: 30px;
+    line-height: 1.5;
+}
+
+/**inquiry**/
+.inquirySection01{
+    padding: 51px 25px 20px 28px;
+    background: #fff;
+    border-radius: 18px;
+}
+
+.inquirySection01 .sct01Inquiry{
+    padding-bottom: 17px;
+    background: url('../common/images/comp_header02_border01.gif') bottom no-repeat;
+}
+
+.inquirySection01 .sct01InquiryText01{
+    padding: 5px 0 0;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+
+.sct01InquiryForm{
+    display: flex;
+    justify-content: center;
+}
+
+.sct01InquiryForm .sct01FormContainer{
+    width: 75.5%;
+    margin: 21px 0 74px;
+    border: 1px solid #f8d5dc;
+    border-radius: 10px;
+}
+
+.sct01InquiryForm .sct01FormTitle{
+    padding: 14px 0 11px;
+    background: #fef0f3;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid #f8d5dc;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sct01FormContainer .sct01Forms{
+    padding: 28px 31px 28px 31px;
+}
+
+.sct01Forms ul li{
+    padding-bottom: 13px;
+}
+
+.sct01Forms .sct01Label{
+    float: left;
+    width: 153px;
+    padding: 10px 0;
+}
+
+.sct01Forms .sct01Label03{
+    margin-bottom: 6px;
+}
+
+.sct01Forms #contents{
+    width: 75.8%;
+    padding: 8px 0;
+    border: 1px solid #eabcc6;
+}
+
+#compName,
+#InCharge,
+#ContactEmail,
+#ContactNumber{
+    width: 75.5%;
+    padding: 9px 0px;
+    border: 1px solid #eabcc6;
+}
+
+.sct01Forms #ContactTime{
+    float: left;
+    width: 18.7%;
+    height: 33px;
+    border: 1px solid #eabcc6;
+}
+
+.label06From{
+    float: left;
+    margin: 10px 26px 0 28px;
+}
+
+#InqDetails{
+    width: 75%;
+    height: 123px;
+    border: 1px solid #eabcc6;
+}
+
+.buttonContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#submitButton{
+    width: 22.8%;
+    height: 44px;
+    margin: 5px 0 40px;
+    border: none;
+    border-radius: 5px;
+    background: url(../images/img_greenBtn.png) repeat-x;
+    background-size: cover;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.btnTxt:after{
+    position: absolute;
+    width: 7px;
+    height: 12px;
+    margin: 5px 0 0 9px;
+    background: url(../images/icon_arrowRight.png) no-repeat;
+    content: '';
+}
+
+
+@media screen and (max-width:700px) {
+.carouselArea{
+    margin: 0;
+}
+
+.carouselNavArea {
+    display: none;
+}
+.carouselTxt01{
+    margin: -45px 0 8px;
+}
+.sct01Food,
+.sct01Darumaya,
+.blockSection05{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sct01Health,
+.sct01Noodle,
+.sct01Shopping{
+    display: flex;
+    flex-direction: column;
+}
+
+.sct01Health01,
+.sct01Noodle01,
+.sct01Food02,
+.sct01Darumaya02,
+.sct01Shopping01{
+    width: 100%;  
+}
+
+.section01Inner img{
+    height: 100%;
+}
+
+.blkSct01Message{
+    display: flex;
+    flex-direction: column;
+}
+
+.blkSct02Profile{
+    display: flex;
+    min-width: 100%;
+    flex-direction: column-reverse;
+    gap: 10px;
+}
+
+.blkSct03Inner ul{
+    background: none;
+}
+.blkSct03Inner ul li:before,
+.blkSct03Inner ul li:nth-child(5):before,
+.blkSct03Inner ul li:nth-child(6):before{
+    background: none;
+}
+
+.blkSct03Inner{
+    display: flex;
+    padding: 0;
+}
+.blkSct03Inner ul{
+    padding-right: 35px;
+}
+.blkSct03Inner ul li{
+    width: 100%;
+    background: url('../images/img_company_arrowdown.png') bottom no-repeat #fff;
+}
+
+.blkSct04Inner img{
+    width: 100%;
+    height: 100%;
+}
+
+.blkSct05Social{
+    display: flex;
+    flex-direction: column;
+}
+
+.blkSct05Social img{
+    height: 100%;
+}
+
+.blkSct05Inner{
+    padding: 0;
+}
+
+.sct05Text{
+    width: 100%;
+}
+
+.blkSct02LeftProfile{
+    width: 100%;
+}
+
+.blkSct02LeftProfile ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.sct01InquiryForm{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sct01InquiryForm .sct01FormContainer{
+    width: 100%;
+}
+
+.sct01Forms ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.sct01Label06{
+    display: block;
+}
+
+.sct01Forms #contents,
+#compName,
+#InCharge,
+#ContactEmail,
+#ContactNumber,
+#ContactTime,
+#InqDetails{
+    width: 100%;
+}
+
+.sct01Forms .sct01Contact{
+    float: none;
+}
+}
+
+@media screen and (max-width:320px) {
+.blkSct01Message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+}
