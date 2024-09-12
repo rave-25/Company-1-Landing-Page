@@ -1,5 +1,7 @@
 This is a [HTML, CSS, Javascript ] project 
 
+live demo: https://rave-25.github.io/Company-1-Landing-Page/
+
 ## Getting Started
 
 First, add files to Github Repositiory:
